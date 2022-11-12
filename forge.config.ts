@@ -21,6 +21,7 @@ const config: ForgeConfig = {
     {
       name: "@electron-forge/publisher-github",
       config: {
+        authToken: "",
         repository: {
           owner: "ashalogic",
           name: "ashaland-web",

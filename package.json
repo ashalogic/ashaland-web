@@ -9,6 +9,9 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "publish-dry-run": "electron-forge publish --dry-run",
+    "publish-from-dry-run": "electron-forge publish --from-dry-run",
+    "publish-auth-token": "electron-forge publish --auth-token=",
     "lint": "eslint --ext .ts,.tsx ."
   },
   "keywords": [],
