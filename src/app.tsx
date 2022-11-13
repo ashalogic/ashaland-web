@@ -1,7 +1,17 @@
-import * as ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-function render() {
-  ReactDOM.render(<h2>Hello from React!</h2>, document.body);
-}
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-render();
+import Main from "./pages/Main";
+
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+root.render(
+  // <React.StrictMode>
+  <Main />
+  // </React.StrictMode>
+);

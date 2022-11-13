@@ -1,9 +1,13 @@
 {
   "name": "ashaland-web",
   "productName": "ashaland-web",
-  "version": "1.0.0",
+  "version": "2.1.2",
   "description": "My Electron application description",
   "main": ".webpack/main",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashalogic/ashaland-web.git"
+  },
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -48,7 +52,9 @@
   "dependencies": {
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.10.1",
+    "electron-log": "^4.4.8",
     "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "socket.io-client": "^4.5.3"

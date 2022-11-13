@@ -27,12 +27,15 @@ const config: ForgeConfig = {
           name: "ashaland-web",
         },
         prerelease: false,
+        draft: false,
       },
     },
   ],
   plugins: [
     new WebpackPlugin({
       mainConfig,
+      devContentSecurityPolicy:
+        "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';",
       renderer: {
         config: rendererConfig,
         entryPoints: [

@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+.navbar {
+  -webkit-app-region: drag;
+}
+button {
+  -webkit-app-region: no-drag;
+}
+.audiowide {
+  font-family: "Audiowide", cursive;
+}
