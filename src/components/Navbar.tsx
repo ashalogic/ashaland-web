@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="navbar fixed-top shadow-lg bg-light border-top border-5 border-warning">
       <div className="container-fluid">
         <span className="navbar-brand mb-0 h1 me-auto">
-          {`AshaLand - V${appVersion}`}
+          {`AshaLand -v${appVersion}`}
         </span>
 
         <button
