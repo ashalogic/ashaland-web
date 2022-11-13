@@ -1,7 +1,7 @@
 {
   "name": "ashaland-web",
   "productName": "ashaland-web",
-  "version": "2.1.2",
+  "version": "0.0.1",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "repository": {
@@ -57,6 +57,7 @@
     "electron-store": "^8.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "socket.io-client": "^4.5.3"
+    "socket.io-client": "^4.5.3",
+    "update-electron-app": "^2.0.1"
   }
 }
